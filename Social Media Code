@@ -1,0 +1,13 @@
+#Activity 3.2.2 Step 7
+from Post import Post
+
+all_posts_archive = []
+
+# your code here
+
+username = input("please enter in your username")
+print("hello", username )
+
+user_input = input(" What would you like to do? add - Add a post to the archive  remove - Remove a post from the archive  change user - Change the user name associated with any future posts  print - Display the current up to date list of all posts  quit - End the program")
+if user_input == ("new"):
+  print("add a new posttt")
